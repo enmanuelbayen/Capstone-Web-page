@@ -1,16 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Lato&family=Meera+Inimai&family=Poppins&family=Roboto&display=swap');
 
-
+body {font-family: 'lato', sans-serif;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #121316;
+    background-color: #d3d3d3;
+    -webkit-tap-highlight-color: transparent; /* chrome comand */
+    -webkit-text-size-adjust: 100%;
+}
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
-.flex{
+li {
+    list-style: none;
+}
+
+.flex {
     display: flex;
 }
 
-.grid{
+.grid {
     display: grid;
 }
