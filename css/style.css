@@ -123,7 +123,7 @@ li {
   margin: 1rem 0 0.4rem;
 }
 
-#info-title-underline{
+.info-title-underline{
     padding: 0.5px;
     background: hwb(6 26% 7% / 0.697);
     width: 3rem;
@@ -169,4 +169,62 @@ li {
     padding: 1.2rem;
     border: none;
     margin: 1.7rem 0;
+}
+
+/* --------------------------Team section */
+
+.team-page {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.2rem;
+}
+
+.subtitles {
+    color: #272a31;
+    margin: 1rem 0 0.4rem;
+}
+
+.team-container {
+    flex-direction: column;
+}
+
+.team-card {
+    grid-template-columns: 1fr 1fr;
+    color: #272a31;
+    margin-bottom: 1.5rem;
+}
+
+.chestbg {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    z-index: 1;
+}
+
+.team-photo {
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    z-index: 2;
+    margin: 1.1rem 0 0 1.1rem;
+}
+
+.team-info {
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.job-underline{
+    padding: 1px;
+    background: hwb(0 9% 91% / 0.434);
+    width: 1.8rem;
+}
+
+.job-position {
+ color: #ae2111b9;
+ font-style: italic;
+}
+
+.team-resume {
+    font-size: 0.7rem;
 }
