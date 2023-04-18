@@ -92,7 +92,7 @@ li {
 .home-bio{
     border: solid 1px;
     padding: 1rem;
-    background-color: #817575e8;
+    background-color: #81757550;
 }
 
 .event-time{
@@ -119,15 +119,15 @@ li {
     padding: 1rem 1.2rem;
 }
 
-.info-title {
+.white-subtitle {
   margin: 1rem 0 0.4rem;
 }
 
-.info-title-underline{
+.subtitles-underline{
     padding: 0.5px;
     background: hwb(6 26% 7% / 0.697);
     width: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.4rem;
 }
 
 .info-deck{
@@ -179,7 +179,7 @@ li {
     padding: 0 1.2rem;
 }
 
-.subtitles {
+.subtitle {
     color: #272a31;
     margin: 1rem 0 0.4rem;
 }
@@ -227,4 +227,121 @@ li {
 
 .team-resume {
     font-size: 0.7rem;
+}
+
+/* -----------About page */
+
+.about-page{
+    color: #d3d3d3;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 1.2rem;
+    text-align: center;
+}
+
+.about-title{
+    color: #d24231;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1;
+    padding-bottom: 1.5rem;
+}
+
+.about-subtitle{
+    color: #ec5242;
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+
+.about-bio{
+    border: solid 1px;
+    padding: 1rem;
+    background-color: #4c4646c7;
+    width: 98%;
+}
+
+.about-contactMsg{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.about-contactMsg a {
+    color: #808080;
+}
+
+/* ----------About the logo */
+
+.about-logo {
+    text-align: center;
+    color: #272a31;
+    padding: 1rem 1.2rem;
+}
+
+.about-logo-text {
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.explain {
+    font-size: 0.8rem;
+    margin-bottom: 1.3rem;
+}
+
+#logo-showcase {
+    background-color: #000000;
+    border: 1px solid #da6262;
+    margin-bottom: 1.4rem;
+}
+
+/*  -------------Past events showcase */
+
+.past-events {
+    text-align: center;
+    color: #272a31;
+    padding: 1rem 1.2rem;
+}
+
+.past-event-text {
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.logo-explain {
+    font-size: 0.8rem;
+    margin-bottom: 1.3rem;
+}
+
+.past-event-deck {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.past-event-1 {
+    background-image: url(../img/test.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+    width: 90%;
+}
+
+.past-event-2 {
+    background-image: url(../img/test.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+    width: 90%;
+}
+
+/* -----------Partners section */
+
+.partner-section {
+    flex-direction: column;
+    align-items: center;
+    background-color: #272a31;
 }
