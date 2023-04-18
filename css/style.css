@@ -17,6 +17,11 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #d3d3d3;
+}
+
 li {
     list-style: none;
 }
@@ -68,8 +73,6 @@ li {
 
 .home-page{
     color: #d3d3d3;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 4rem 1.2rem;
 }
 
@@ -274,6 +277,7 @@ li {
 
 .about-logo {
     text-align: center;
+    background: #fff;
     color: #272a31;
     padding: 1rem 1.2rem;
 }
@@ -300,6 +304,7 @@ li {
 
 .past-events {
     text-align: center;
+    background: #fff;
     color: #272a31;
     padding: 1rem 1.2rem;
 }
@@ -405,4 +410,90 @@ li {
 .logo-name {
     max-width: 80%;
     height: auto;
+}
+
+/* --------Desktop version */
+
+@media only screen and (min-width: 768px) {
+
+
+.hamburge {
+    display: none;
+}
+
+/* ----Navigation bar top/log in */
+
+.social-nav {
+    display: block;
+    width: 100%;
+    background: #272a31;
+    padding: 0.4rem 10%;
+}
+
+.social-nav-list {
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* ----Main navegation bar */
+
+.navbar {
+    display: block;
+    background: #fff;
+    padding: 1.5rem 10%;
+}
+
+.navbar-box {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 7rem;
+}
+
+.navbar-option {
+    gap: 3vw;
+}
+
+.option a {
+    font-size: 1.2rem;
+    color: #272a31;
+}
+
+/* -----Home page */
+
+.landing-page {
+    height: 63vw;
+}
+
+.home-page {
+    padding: 8vw 0;
+    margin: auto;
+    width: 80%;
+}
+
+.home-page h2 {
+    font-size: 3vw;
+}
+
+.home-page h1 {
+    font-size: 5vw;
+}
+
+.home-page p {
+    font-size: 1.2rem;
+}
+
+#event-time{
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.home-bio {
+    width: 60%;
+}
+
+
 }
