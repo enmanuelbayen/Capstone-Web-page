@@ -495,5 +495,92 @@ li {
     width: 60%;
 }
 
+/* -----Information section */
+
+.info {
+    padding: 5vh 10%;
+}
+
+.white-subtitle {
+    font-size: 2.5vw;
+}
+
+.info-deck {
+    flex-direction: row;
+    gap: 0.5rem;
+    margin: 5vh 0;
+}
+
+.info-card {
+    flex-direction: column;
+    padding: 2rem 1vw;
+    gap: 1vw;
+}
+
+.info-card p {
+    width: 100%;
+    text-align: center;
+    font-size: calc(0.8rem + .6vw);
+    line-height: 2vw;
+}
+
+.info-card h3 {
+    font-size: calc(1rem + .9vw);
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.info-card img {
+    transform: scale(1.3);
+}
+
+.button {
+    display: none;
+}
+
+.button-desk {
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    font-size: 1.3rem;
+    color: #fff;
+    margin: 4vh 0;
+}
+
+/* ------Team page */
+
+.team-page {
+    padding: 4vw 10%;
+}
+
+/* ------partners and footer */
+
+.partner-container {
+    display: block;
+}
+
+.partner-section {
+    padding: 4vw 10%;
+}
+
+.partner-list {
+    flex-wrap: nowrap;
+}
+
+.partner-img {
+    transform: scale(.7);
+}
+
+.footer-container {
+    display: block;
+}
+
+.footer {
+    padding: 4vw 10%;
+    grid-template-columns: 1fr 1fr;
+}
 
 }
