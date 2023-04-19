@@ -270,7 +270,7 @@ li {
 }
 
 .about-contactMsg a {
-    color: #808080;
+    color: #ffffff;
 }
 
 /* ----------About the logo */
@@ -307,6 +307,7 @@ li {
     background: #fff;
     color: #272a31;
     padding: 1rem 1.2rem;
+    border-top: 1px solid #272a3163;
 }
 
 .past-event-text {
@@ -469,9 +470,8 @@ li {
 }
 
 .home-page {
-    padding: 8vw 0;
+    padding: 8vw 10%;
     margin: auto;
-    width: 80%;
 }
 
 .home-page h2 {
@@ -581,6 +581,68 @@ li {
 .footer {
     padding: 4vw 10%;
     grid-template-columns: 1fr 1fr;
+}
+
+/* ---------About page */
+
+.about-page {
+    padding: 8vh 10%;
+}
+
+.about-page p {
+   font-size: 1.2rem;
+}
+
+.about-subtitle {
+    display: none;
+}
+
+.about-title {
+    font-size: 5vw;
+}
+
+#about-span{
+    display: block;
+}
+
+.about-bio {
+    width: 60%;
+}
+
+/* ------About logo section*/
+
+.about-logo {
+    padding: 4vw 10%;
+}
+
+#logo-showcase {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.explain {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+/* ------Past event section */
+
+.past-events {
+    padding: 4vw 10%;
+}
+
+.past-event-deck {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3vw;
+}
+
+.past-event-deck div {
+    width: 100%;
+    height: 20rem;
 }
 
 }
