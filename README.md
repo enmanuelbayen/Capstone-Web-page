@@ -1,8 +1,12 @@
 # Capstone-Web-page
 
-# Portfolio: setup and mobile first
+# Gaming event 2023 web page showcase
 
-Add First setup for my portfolio follow the guideline on the activite "Portfolio: setup and mobile first" 
+Create with the aim of mentioning one of the thematics of events that I like the most that is that of the video games and using all my knowledge in the first module of the program microverse to give it form and functionality. 
+
+Use <a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a> work as reference material.  
+
+There were only a few changes in content and styles from the original design
 
 Will have future changes in the next days! 
 
@@ -11,7 +15,7 @@ Will have future changes in the next days!
 
 <div align="center">
 
-  <h3 id="title"><b>Microverse Portfolio. Get to know me!</b></h3>
+  <h3 id="title"><b>Module 1 Capstone!</b></h3>
 
 </div>
 
@@ -41,10 +45,10 @@ Will have future changes in the next days!
 
 
 
-# 📖 Web page for curse of medicine on Venezuela <a name="about-project"></a>
+# 📖 Web page for Gamescom event! <a name="about-project"></a>
 
-> An introduction to myself and my start on this new adventure studying at Microverse. I create this portfolio using HTML and CSS.
-> You can watch this video of me commenting on my first advances in creating this portfolio and how I felt in the process. [Loom video](https://www.loom.com/share/8a4576b28c8e43ef9d3f74f1874ce556)
+> Testing all the information learned in the course in the areas of HTML, CSS and JS to achieve the results shown..
+> You can watch this video of me commenting on my first advances in creating this web page and how I felt in the process and the Features I added. [Loom video](https://www.loom.com/share/8a4576b28c8e43ef9d3f74f1874ce556)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,7 +79,7 @@ Will have future changes in the next days!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<p> Checkout my page <a href="https://enmanuelbayen.github.io/Capstone-Web-page/" target="_blank" rel="noopener noreferrer"> here!</a> </p>  
+<p> Checkout my capstone <a href="https://enmanuelbayen.github.io/Capstone-Web-page/" target="_blank" rel="noopener noreferrer"> here!</a> </p>  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,7 +133,7 @@ Work in progress.
 
 ### Deployment
 
-Work in progress.
+I use Githud pages for the deployment of this web page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,7 +155,7 @@ Work in progress.
 - [ ] More designs and styles!
 - [ ] Better funcionality.
 - [ ] More Imagen and maybe some videos.
-- [ ] Desktop version
+- [x] Desktop version
 - [ ] Javascript format
 
 
@@ -204,6 +208,8 @@ I would like to thank to my family and God for the opportunities to always impro
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

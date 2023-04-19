@@ -130,7 +130,7 @@ li {
   padding: 0.5px;
   background: #ec5242;
   width: 3rem;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.3rem;
 }
 
 .info-deck {
@@ -565,6 +565,7 @@ li {
   .team-container {
     grid-template-columns: 1fr 1fr;
     gap: 2vw;
+    margin-top: 4rem;
   }
 
   .team-card {
