@@ -291,8 +291,9 @@ li {
 }
 
 #logo-showcase {
-  background-color: #000;
-  border: 1px solid #da6262;
+    padding: 2rem 0;
+  background-color: #fff;
+  border: 1px solid #272a31d6;
   margin-bottom: 1.4rem;
 }
 
@@ -394,20 +395,22 @@ li {
 
 .footer {
   grid-template-columns: 1fr 2fr;
-  justify-content: center;
-  align-items: center;
+  justify-items: center;
   color: #272a31;
   padding: 2rem 1.2rem;
   background: #fff;
 }
 
 .footer-about {
-  grid-template-columns: 1fr 2fr;
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
   color: #272a31;
   padding: 2rem 1.2rem;
   background: #fff;
+}
+
+.footer-about p {
+    place-self: center;
 }
 
 .logo-name {
@@ -442,7 +445,7 @@ li {
   .navbar {
     display: block;
     background: #fff;
-    padding: 1.5rem 10%;
+    padding: .7rem 10%;
   }
 
   .navbar-box {
@@ -451,7 +454,7 @@ li {
   }
 
   .navbar-logo {
-    width: 7rem;
+    width: 5vw;
   }
 
   .navbar-option {
