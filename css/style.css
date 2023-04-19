@@ -187,10 +187,6 @@ li {
     margin: 1rem 0 0.4rem;
 }
 
-.team-container {
-    flex-direction: column;
-}
-
 .team-card {
     grid-template-columns: 1fr 1fr;
     color: #272a31;
@@ -560,6 +556,16 @@ li {
 
 .team-page {
     padding: 4vw 10%;
+}
+
+.team-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw;
+}
+
+.team-card {
+    grid-template-columns: 1fr 2fr;
+    gap: 1vw;
 }
 
 /* ------partners and footer */
