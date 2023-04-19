@@ -64,7 +64,7 @@ li {
 /* ------------Home page */
 
 .landing-page{
-    background-image: url(../img/hombg.jpg);
+    background-image: url(../img/homebg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -332,7 +332,7 @@ li {
 }
 
 .event-card1{
-    background-image: url(../img/test.jpg);
+    background-image: url(../img/event1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -341,7 +341,7 @@ li {
 }
 
 .event-card2{
-    background-image: url(../img/test.jpg);
+    background-image: url(../img/event2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
