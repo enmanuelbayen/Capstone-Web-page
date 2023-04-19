@@ -455,12 +455,18 @@ li {
 }
 
 .navbar-option {
-    gap: 3vw;
+    gap: 2.5vw;
 }
 
 .option a {
     font-size: 1.2rem;
     color: #272a31;
+}
+
+#tickets{
+    color: #ec5242;
+    border: 5px solid #ec5242;
+    padding: 10px;
 }
 
 /* -----Home page */
