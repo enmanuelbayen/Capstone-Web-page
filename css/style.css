@@ -291,7 +291,7 @@ li {
 }
 
 #logo-showcase {
-    padding: 2rem 0;
+  padding: 2rem 0;
   background-color: #fff;
   border: 1px solid #272a31d6;
   margin-bottom: 1.4rem;
@@ -410,7 +410,7 @@ li {
 }
 
 .footer-about p {
-    place-self: center;
+  place-self: center;
 }
 
 .logo-name {
@@ -445,7 +445,7 @@ li {
   .navbar {
     display: block;
     background: #fff;
-    padding: .7rem 10%;
+    padding: 0.7rem 10%;
   }
 
   .navbar-box {

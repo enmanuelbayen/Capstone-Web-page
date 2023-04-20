@@ -4,10 +4,6 @@
 
 Create with the aim of mentioning one of the thematics of events that I like the most that is that of the video games and using all my knowledge in the first module of the program microverse to give it form and functionality. 
 
-Use <a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a> work as reference material.  
-
-There were only a few changes in content and styles from the original design
-
 Will have future changes in the next days! 
 
 <a name="readme-top"></a>
@@ -185,6 +181,10 @@ If you like this project just keep an eye on the changes that I will bring over 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank to my family and God for the opportunities to always improve despite adversity, my girlfriend and friends for being there for me, and Microverse for providing a platform to achieve this goal.
+
+Use <a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a> work as reference material.  
+
+There were only a few changes in content and styles from the original design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
